@@ -1,0 +1,283 @@
+/*
+      New Perspectives on HTML and CSS
+      Project
+	  Hiking in Southeast PA
+
+      Hiking stylesheet
+      Author: Randall Petersheim
+      Date:   November 19, 2016
+
+      Filename:         hiking_styles.css
+     
+*/
+	
+/* Set the default page element styles */
+
+body * {
+	font-size: 100%;
+}
+
+div#container {
+	background-color: white;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 800px;
+}
+	
+body {
+	background-color: white;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+header, nav, section, article, aside, footer {
+	display: block;
+	font-family: Corbel;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #8a0808;
+}
+
+header h1 {
+	color: white;
+	font-size: 3em;
+	margin: 0em;
+	padding: 0.2em;
+	text-align: center;
+}
+
+header img {
+	display: block;
+	margin: 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+
+nav ul {
+	padding: 0em;
+	margin: 0em;
+}
+
+nav ul li {
+	display: block;
+	float: left;
+	width: 20%;
+}
+
+nav ul li a {
+	background-color: #8a0808;
+	color: white;
+	display: block;
+	font-size: 2em;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+nav ul li a:hover, nav ul li a.current {
+	background-color: #ce3333;
+	color: white;
+}
+
+section {
+	clear: left;
+	float: left;
+	margin: 0em 0em;
+	width: 65%;
+}
+
+article {
+	border: 1px solid #b9b6b6;
+	border-radius: 10px;
+	margin: 2em;
+	overflow: auto;
+}
+
+article img.parks {
+	float: right;
+	margin: 1.2em;
+}
+
+article img#map {
+	display: block;
+	margin: auto;
+}
+
+article p, aside p {
+	font-size: 1.2em;
+	padding: 0.2em 1.5em;
+}
+
+article h2 {
+	border-bottom: 1px solid #b9b6b6;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0px;
+	padding: 0em 0.5em;
+}
+
+fieldset#usersubmission {
+	border: 1px solid #b9b6b6;
+	border-radius: 10px;
+	margin: 1em 1em;
+}
+
+legend {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+input {
+	display: block;
+	float: right;
+	width: 60%;
+}
+
+select {
+	display: block;
+	float: right;
+}
+
+label.optionGroup {
+	clear: left;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+label.checkbox {
+	clear: left;
+	display: block;
+	float: left;
+	width: 80%;
+}
+
+input.checkbox {
+	display: block;
+	float: right;
+	width: 10%;
+}
+
+label.textarea {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+textarea {
+	clear: left;
+	display: block;
+	float: left;
+	height: 150px;
+	width: 100%;
+}
+
+form p {
+	text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+	display: inline;
+	float: none;
+	height: 30px;
+	width: 100px;
+}
+
+aside h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.2em 1.5em;
+}
+
+aside {
+	background-color: #b9b6b6;
+	border-radius: 10px;
+	display: block;
+	float: right;
+	margin: 2em 0em;
+	width: 35%;
+}
+
+aside ul {
+	padding: 0.5em 3em;
+}
+
+table {
+	border: 1px solid red;
+	border-collapse: collapse;
+	margin: 1em auto;
+	padding: 0em;
+	width: 90%;
+}
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+table th, table td {
+	border: 1px solid white;
+	padding: 5px;
+	text-align: center;
+}
+
+table thead {
+	background-color: #8a0808;
+	color: white;
+}
+
+col.firstCol {
+	width: 60%;
+}
+
+div#return_to_top {
+	margin: 2em;
+}
+
+div#return_to_top a {
+	background-color: white;
+	border: 1px solid #b9b6b6;
+	border-radius: 10px;
+	color: black;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+div#return_to_top a:hover {
+	background-color: #b9b6b6;
+}
+
+footer {
+	background-color: #8a0808;
+	clear: both;
+	color: white;
+	font-size: 0.8em;
+	padding: 0.25em;
+	text-align: center;
+}
+
+footer p {
+	padding: 0em;
+}
