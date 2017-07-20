@@ -84,17 +84,22 @@ nav ul li a:hover, nav ul li a.current {
 	color: white;
 }
 
-section {
+section#main {
 	clear: left;
 	float: left;
 	margin: 0em 0em;
 	width: 65%;
 }
 
+section#aside {
+	float: right;
+	width: 35%;
+}
+
 article {
 	border: 1px solid #b9b6b6;
 	border-radius: 10px;
-	margin: 2em;
+	margin: 1em;
 	overflow: auto;
 }
 
@@ -209,8 +214,7 @@ aside {
 	border-radius: 10px;
 	display: block;
 	float: right;
-	margin: 2em 0em;
-	width: 35%;
+	margin: 1em;
 }
 
 aside ul {
